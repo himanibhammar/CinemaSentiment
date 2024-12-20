@@ -1,27 +1,20 @@
-# Sentiment Analysis Using LSTM 🌟
+# Sentiment Analysis Using LSTM
 
-Welcome to the **Sentiment Analysis Using LSTM** project! This deep learning-based application leverages TensorFlow and the IMDB dataset to classify movie reviews as either **positive** or **negative** using a Long Short-Term Memory (LSTM) model.
+This project leverages deep learning techniques to perform sentiment analysis on textual data. Using TensorFlow and the IMDB dataset, it trains an LSTM-based neural network to classify movie reviews as positive or negative.
 
----
+## Key Features
+- **LSTM Model Architecture**: Implements a Sequential model with layers such as Embedding, LSTM, Dense, and Dropout for robust sentiment classification.
+- **IMDB Dataset Utilization**: Preprocessed and padded sequences for training and testing using the IMDB dataset.
+- **Data Preprocessing**: Includes tokenization and sequence padding for handling text data efficiently.
+- **Visualizations**: Generates graphs to visualize training accuracy, loss, and other metrics.
+- **User-Friendly Design**: Structured for easy replication and experimentation.
 
-## Key Features 🚀
+## Installation
 
-- **LSTM Model Architecture**: A powerful neural network architecture designed for sequential data.
-  - Layers: Embedding, LSTM, Dense, and Dropout for optimal performance.
-- **IMDB Dataset**: Preprocessed and tokenized to train the model on a large corpus of movie reviews.
-- **Data Preprocessing**: Tokenization and sequence padding to handle text data with ease.
-- **Visualizations**: Dynamic graphs for training accuracy, loss, and more.
-- **User-Friendly**: Easy to replicate, modify, and experiment with different configurations.
+Follow these steps to set up the project on your local machine:
 
----
-
-## 📥 Installation Guide
-
-Follow the steps below to set up the project on your local machine:
-
-### 1. **Clone the Repository**
-
-Start by cloning the repository to your local machine:
-```bash
-git clone https://github.com/himanibhammar/CinemaSentiment.git
-cd CinemaSentiment
+### 1. **Clone the repository**:
+   Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/himanibhammar/CinemaSentiment.git
+   cd CinemaSentiment
